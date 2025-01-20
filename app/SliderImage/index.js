@@ -4,7 +4,7 @@ import React from 'react'
 const SliderImage = () => {
   return (
     <>
-    <div className='flex'>
+    <div className='hidden sm:flex'>
         <div>
             <Image 
                 src="/assets/images/asset 52.jpeg"

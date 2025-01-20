@@ -1,24 +1,19 @@
-import Image from 'next/image'
-import React from 'react'
+import React from 'react';
 
-const TeaCard = ({icon, title, description}) => {
-    return (
-
-        <div className="main_tea ">
-            <div className="left_content pt-10">
-                <div className="content_icon flex gap-3 w-[600px]">
-                    <div className="icon pt-1">
-                    {icon}
-                    </div>
-                    <div className="content">
-                        <h3 className='text-2xl'>{title}</h3>
-                        <p className='text-gray-500'>{description}</p>
-                    </div>
-                </div>
-            </div>
-           
+const TeaCard = ({ icon, title, description }) => {
+  return (
+    <div className="bg-white p-6 rounded-lg shadow-lg">
+      <div className="flex items-start gap-4">
+        {/* Icon */}
+        <div className="text-[#56C7BD] text-5xl">{icon}</div>
+        {/* Content */}
+        <div className="flex flex-col">
+          <h3 className="text-xl lg:text-2xl font-semibold">{title}</h3>
+          <p className="text-gray-500">{description}</p>
         </div>
-    )
-}
+      </div>
+    </div>
+  );
+};
 
-export default TeaCard
+export default TeaCard;

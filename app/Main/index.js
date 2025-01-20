@@ -4,9 +4,9 @@ import React from 'react'
 const index = () => {
   return (
     <div className=' bg-[#50C5BC] h-[100vh] flex flex-col justify-center items-center relative text-center overflow-hidden'>
-      <div className='text-white w-[600px] '>
-        <h1 className='font'>Fruit Tea</h1>
-        <p className='text-xl py-2'>Etiam convallis, felis quis dapibus dictum, libero mauris luctus, non fringilla purus ligula non justo. Non fringilla purus.</p>
+      <div className='text-white w-[300px] sm:w-[400px]  md:w-[600px] z-30 flex flex-col flex-wrap justify-center items-center'>
+        <h1 className='font text-[50px] sm:text-[80px] md:text-[120px] '>Fruit Tea</h1>
+        <p className=' sm:text-md md:text-xl py-2'>Etiam convallis, felis quis dapibus dictum, libero mauris luctus, non fringilla purus ligula non justo. Non fringilla purus.</p>
         <button className='h-14  w-48 bg-white text-[#50C5BC]'>VIEW FEATURE</button>
       </div>
 

@@ -1,19 +1,12 @@
-import React from 'react'
+import React from 'react';
 
-const Feature1 = ({title , description}) => {
+const Feature1 = ({ title, description }) => {
   return (
-   <>
-   <div className='flex flex-col gap-10'>
-
-    <div className="feature_1  h-[200px] w-[400px] text-right flex flex-col justify-center ">
-        <h1 className='text-2xl font-bold title' >{title}</h1>
-        <p className='text-gray-600'>{description}</p>
+    <div className="feature_1 flex flex-col gap-4 p-4 bg-white rounded-lg shadow-md">
+      <h1 className="text-lg md:text-xl lg:text-2xl font-bold text-gray-800">{title}</h1>
+      <p className="text-sm md:text-base text-gray-600">{description}</p>
     </div>
-   
+  );
+};
 
-    </div>
-   </>
-  )
-}
-
-export default Feature1
+export default Feature1;

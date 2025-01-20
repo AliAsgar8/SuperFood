@@ -4,8 +4,8 @@ import React from 'react'
 const CompanyLogo = () => {
     return (
         <>
-            <div className='h-[230px] bg-[#50C5BB] flex items-center px-10'>
-                <div>
+            <div className='py-20 bg-[#50C5BB] flex  items-center px-10'>
+                <div className='hidden sm:block'>
                     <Image
                         src="/assets/images/asset 42.png"
                         alt='title'
@@ -29,7 +29,7 @@ const CompanyLogo = () => {
                         height={10}
                     />
                 </div>
-                <div>
+                <div className='hidden sm:block'>
                     <Image
                         src="/assets/images/asset 48.png"
                         alt='title'
@@ -37,7 +37,7 @@ const CompanyLogo = () => {
                         height={10}
                     />
                 </div>
-                <div>
+                <div className='hidden sm:block'>
                     <Image
                         src="/assets/images/asset 50.png"
                         alt='title'
